@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siloé Perú | Voluntariado y Clow Hospitalario</title>
+    
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero" style="background-image: linear-gradient(135deg, rgba(41, 171, 226, 0.75), rgba(255, 107, 180, 0.75)), url('./img voluntario/fondo.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <h1>"Estuve enfermo y me visitaste"</h1>
+        <p>— Mt 25:36 —</p>
+        <p>Acompañamos a niños y familias en su proceso de recuperación en el Hospital del Niño y comunidades vulnerables de Perú.</p>
+        <br>
+        <div class="nav-buttons">
+            <button id="btn-nosotros" class="nav-btn nav-btn-active">
+                ℹ️ Nosotros
+            </button>
+            <button id="btn-voluntarios" class="nav-btn">
+                👥 Voluntariado Siloé
+            </button>
+            
+            <button id="btn-clow" class="nav-btn">
+                🤡 Clow de Siloé
+            </button>
+
+            <button id="btn-aliados" class="nav-btn">
+                🤝 Nuestros Aliados
+            </button>
+        </div>
+    </section>
+
+    <div id="seccion-voluntariado" class="seccion-inactiva">
+
+    <section class="hospital-info">
+        <h2>Nuestro Impacto en el Hospital del Niño</h2>
+        <p>Colaboramos activamente en el acompañamiento emocional de pacientes pediátricos.</p>
+        
+        <div class="grid-actividades">
+            <div class="card">
+                <h3>Acompañamiento en Camas</h3>
+                <p>Lectura de cuentos, juegos de mesa y escucha activa para reducir el estrés de la hospitalización.</p>
+            </div>
+            <div class="card">
+                <h3>Soporte a Familias</h3>
+                <p>Brindamos contención a los padres que vienen de provincias y pasan largas jornadas en el hospital.</p>
+            </div>
+            <div class="card">
+                <h3>Talleres de Arte</h3>
+                <p>Espacios creativos donde los niños pueden expresarse y olvidar por un momento su dolencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria-impacto">
+        <h2>Historias que Transforman Vidas</h2>
+        <p class="galeria-subtitulo">Cada momento cuenta. Cada sonrisa importa.</p>
+        
+        <div class="galeria-grid">
+
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img voluntario/img2.png" alt="Voluntarios ayudando">
+                        <div class="galeria-overlay">
+                            <p>Juntos Somos Más Fuertes</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">🤝 Comunidad</p>
+                            <p class="historia-texto">"Un voluntario es fuerte, pero una comunidad de voluntarios es invencible. Trabajamos juntos para crear un impacto tan grande que ningún niño se sienta abandonado."</p>
+                            <p class="historia-autor">— Misión Siloé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img voluntario/img entrega de pañales.jpg" alt="Niño sonriendo en hospital">
+                        <div class="galeria-overlay">
+                            <p>Momentos de Alegría</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">😊 Alegría</p>
+                            <p class="historia-texto">"En el hospital, la risa es acto de resistencia. Cuando repartimos sonrisas junto con cada ayuda, estamos curando no solo el cuerpo, sino el alma. La alegría es la mejor medicina."</p>
+                            <p class="historia-autor">— Voluntario Siloé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="galeria-item galeria-item-grande">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img voluntario/img voluntario navidad.jpg" alt="Voluntario acompañando niño">
+                        <div class="galeria-overlay">
+                            <p>Acompañamiento con Amor</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">💖 Acompañamiento</p>
+                            <p class="historia-texto">"Cada niño necesita sentir que no está solo. Nuestros voluntarios dedican horas a estar presentes, a escuchar, a acompañar. Una sonrisa, una mano, una palabra de aliento puede cambiar el día de un pequeño guerrero."</p>
+                            <p class="historia-autor">— Siloé Perú</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="galeria-item galeria-item-grande">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img voluntario/img voluntario navidad2.2" alt="Sonrisas que transforman">
+                        <div class="galeria-overlay">
+                            <p>La Medicina de la Esperanza</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">🌟 Esperanza</p>
+                            <p class="historia-texto">"La verdadera medicina no viene de una botella. Viene de saber que alguien se preocupa, que no estás solo, que mañana habrá una sonrisa esperándote. Eso es lo que brindamos: esperanza tangible."</p>
+                            <p class="historia-autor">— Siloé Perú</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img voluntario/540412289_18218662465307271_3984022991253073857_n.png" alt="Apoyo a familias">
+                        <div class="galeria-overlay">
+                            <p>Apoyo a Familias Enteras</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">👨‍👩‍👧‍👦 Familias</p>
+                            <p class="historia-texto">"No solo apoyamos al niño, apoyamos a toda la familia. Los padres también necesitan esperanza. Nuestros voluntarios ofrecen contención emocional a padres que vienen de provincias con el corazón roto."</p>
+                            <p class="historia-autor">— Equipo Siloé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img voluntario/img voluntarios navidad 2.1" alt="Niños felices con voluntarios">
+                        <div class="galeria-overlay">
+                            <p>Crear Memorias Felices</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">📸 Memorias</p>
+                            <p class="historia-texto">"Los momentos con nuestros voluntarios se convierten en los recuerdos más preciados. En medio del dolor, creamos espacios de luz. Cada niño merece recordar su infancia con sonrisas, no solo con lágrimas."</p>
+                            <p class="historia-autor">— Voluntarios Siloé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario-voluntarios" class="form-section">
+        <h2 style="text-align:center;">Formulario de Postulación - Voluntarios</h2>
+        <p style="text-align:center;">Tu seguridad y la de los niños es nuestra prioridad. Por favor, completa tus datos.</p>
+        
+        <form class="volunteer-form" action="https://formsubmit.co/darlycampoverde@gmail.com" method="POST">
+            <div class="form-group">
+                <label for="nombre-voluntario">Nombre Completo *</label>
+                <input type="text" id="nombre-voluntario" name="Nombre Completo" placeholder="Tu nombre completo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="dni-voluntario">DNI (Identificación) *</label>
+                <input type="text" id="dni-voluntario" name="DNI" placeholder="Tu número de DNI" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="telefono-voluntario">Número de Celular *</label>
+                <input type="tel" id="telefono-voluntario" name="Teléfono" placeholder="Tu teléfono de contacto" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="motivacion-voluntario">¿Por qué te gustaría apoyar? *</label>
+                <textarea id="motivacion-voluntario" name="Motivación" placeholder="¿Por qué te gustaría apoyar en el Hospital del Niño?" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="aceptacion-voluntario" name="Aceptación" required style="width: auto;">
+                <label for="aceptacion-voluntario" style="width: auto;">Acepto la política de privacidad y el uso de mis datos para la gestión del voluntariado.</label>
+            </div>
+            
+            <button type="submit" class="btn-enviar">ENVIAR MI SOLICITUD</button>
+        </form>
+    </section>
+
+    </div><!-- FIN de #seccion-voluntariado -->
+
+    <!--CONTENEDOR SECCIÓN CLOW -->
+    <div id="seccion-clow" class="seccion-inactiva">
+
+    <!-- SECCIÓN CLOW DE SILOÉ-->
+    <section id="clow" class="clow-hero">
+        <h1>🤡 El Clow de Siloé 🤡</h1>
+        <p class="clow-tagline">La Magia de la Risa es Nuestra Medicina</p>
+        
+        <div class="clow-intro">
+            <p>
+                En los pasillos del Hospital del Niño, la risa es medicina. Nuestros clowns hospitalarios 
+                transforman momentos de miedo y dolor en instantes de alegría y esperanza. Con nariz roja, 
+                sonrisa amplia y corazón generoso, traen algo invaluable: la oportunidad de ser niño otra vez.
+            </p>
+            <p>
+                No somos performers que buscan aplausos. Somos acompañantes que entienden que en el rostro 
+                de cada niño hospitalizado hay universos de emociones. Nuestra misión es simple pero profunda: 
+                recordarles que la vida, incluso en los momentos más difíciles, sigue siendo digna de una sonrisa.
+            </p>
+        </div>
+    </section>
+
+    <section class="inspiration-section">
+        <h2>Frases que Nos Inspiran</h2>
+        
+        <div class="frases-grid">
+            <!-- Tarjeta 1: La risa es el camino -->
+            <div class="frase-card">
+                <div class="frase-emoji">😊</div>
+                <p class="frase-text">"La risa es el camino más corto entre dos personas"</p>
+                <p class="frase-author">— Victor Borge</p>
+            </div>
+            
+            <!-- Tarjeta 2: No cambiamos el diagnóstico -->
+            <div class="frase-card">
+                <div class="frase-emoji">🌟</div>
+                <p class="frase-text">"No cambiamos el diagnóstico, pero sí el pronóstico del día"</p>
+                <p class="frase-author">— Siloé Perú</p>
+            </div>
+            
+            <!-- Tarjeta 3: Ser clown -->
+            <div class="frase-card">
+                <div class="frase-emoji">💖</div>
+                <p class="frase-text">"Ser clown es ser el guardián de la esperanza con una sonrisa"</p>
+                <p class="frase-author">— Siloé Perú</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA DE MAGIA - Momentos Clow -->
+    <section class="galeria-impacto galeria-clow">
+        <h2>La Magia en Acción</h2>
+        <p class="galeria-subtitulo">La risa que transforma, la alegría que sana.</p>
+        
+        <div class="galeria-grid">
+            <!-- Item 1: Risa que Transforma (PEQUEÑA) -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/568201215_18225647026307271_8015100808044120281_n.png" alt="Risa que transforma">
+                        <div class="galeria-overlay">
+                            <p>Risa que Transforma</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">😄 Transformación</p>
+                            <p class="historia-texto">"Una visita del clown puede cambiar completamente el día de un paciente. Su risa contagia, libera el estrés y abre puertas a la esperanza. En ese instante, el miedo desaparece."</p>
+                            <p class="historia-autor">— Clow Siloé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 2: Payasos en Acción -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/606679523_18233751487307271_2653071027915695311_n.png" alt="Payasos en acción">
+                        <div class="galeria-overlay">
+                            <p>Payasos en Acción</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">🤡 Acción</p>
+                            <p class="historia-texto">"Nadie en la habitación queda sin sonreír. Los clowns llevan consigo un mundo de colores, música y diversión. Transforman un espacio de hospital en un escenario de alegría."</p>
+                            <p class="historia-autor">— Voluntarios Clow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 3: Alegría Terapéutica (PEQUEÑA) -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/570037802_18225646981307271_7083655908308813644_n.png" alt="Alegría terapéutica">
+                        <div class="galeria-overlay">
+                            <p>Alegría Terapéutica</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">🎭 Terapia</p>
+                            <p class="historia-texto">"La medicina más poderosa lleva nariz roja. Nuestros clowns saben que la risa es curativa. Cada chiste, cada gesto, cada interacción es diseñada para sanar el espíritu."</p>
+                            <p class="historia-autor">— Equipo Clow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 4: Risas Compartidas (PEQUEÑA) -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/641773809_18241087081307271_7081150706072675463_n.png" alt="Risas compartidas">
+                        <div class="galeria-overlay">
+                            <p>Risas Compartidas</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">😆 Compartir</p>
+                            <p class="historia-texto">"Una risa sola es hermosa, pero risa compartida es sagrada. Los clowns crean espacios donde niños, padres y médicos ríen juntos. En esa risa se rompen las barreras."</p>
+                            <p class="historia-autor">— Voluntarios Clow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 5: Magia del Corazón -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/620990517_18237125605307271_569971132472878260_n.png" alt="Magia del corazón">
+                        <div class="galeria-overlay">
+                            <p>Magia del Corazón</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">✨ Magia</p>
+                            <p class="historia-texto">"La verdadera magia no está en los trucos, está en la conexión. Cuando un clown mira a los ojos de un niño y sonríe, ocurre la magia. Esa conexión es lo que cura."</p>
+                            <p class="historia-autor">— Siloé Clow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 6: Esperanza y Diversión (PEQUEÑA) -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/641776311_18241087003307271_2305698428489149300_n.png" alt="Esperanza y diversión">
+                        <div class="galeria-overlay">
+                            <p>Esperanza y Diversión</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">🌈 Esperanza</p>
+                            <p class="historia-texto">"En los peores momentos, llega la diversión. Los clowns son portadores de esperanza disfrazados de risa. Cada visita es un recordatorio de que la vida sigue siendo bonita."</p>
+                            <p class="historia-autor">— Clow Siloé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 7: Voluntarios con Nariz Roja (PEQUEÑA) -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/642631975_18241087042307271_3713862490567410574_n.png" alt="Voluntarios con nariz roja">
+                        <div class="galeria-overlay">
+                            <p>Voluntarios con Nariz Roja</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">❤️ Corazón Rojo</p>
+                            <p class="historia-texto">"Detrás de cada nariz roja hay un corazón de oro. Voluntarios que renuncian a su comodidad para viajar al hospital, para hacer reír, para sanar. Eso es sacrificio con propósito."</p>
+                            <p class="historia-autor">— Siloé Perú</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 8: Última Experiencia Clow -->
+            <div class="galeria-item">
+                <div class="galeria-flip-card">
+                    <div class="galeria-flip-front">
+                        <img src="./img clow/ultima clow.png" alt="Última experiencia clow">
+                        <div class="galeria-overlay">
+                            <p>Última Experiencia</p>
+                        </div>
+                    </div>
+                    <div class="galeria-flip-back">
+                        <div class="galeria-historia">
+                            <p class="historia-titulo">🎪 Legado</p>
+                            <p class="historia-texto">"Cada experiencia es un capítulo en nuestra historia de alegría. Los clowns de Siloé continúan escribiendo historias de esperanza, una risa a la vez. El viaje sigue, la magia persiste."</p>
+                            <p class="historia-autor">— Siloé Clow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN FORMULARIO - Postulación de Clowns-->
+    <section class="form-section clow-form-section">
+        <h2 style="text-align:center;">¡Únete como Clown de Siloé!</h2>
+        <p style="text-align:center; font-weight: 300;">Queremos conocer a nuevos voluntarios que traigan alegría y esperanza a nuestros niños.</p>
+        
+        <!-- Formulario de Clown configurado para enviar correos
+             usa FormSubmit.co para enviar a darlycampoverde@gmail.com -->
+        <form class="clow-form" action="https://formsubmit.co/darlycampoverde@gmail.com" method="POST">
+            <!-- Campo: Nombre completo -->
+            <div class="form-group">
+                <label for="nombre-clow">Nombre Completo *</label>
+                <input type="text" id="nombre-clow" name="Nombre Completo" placeholder="Tu nombre" required>
+            </div>
+            
+            <!-- Campo: Email -->
+            <div class="form-group">
+                <label for="email-clow">Correo Electrónico *</label>
+                <input type="email" id="email-clow" name="Correo Electrónico" placeholder="tu@email.com" required>
+            </div>
+            
+            <!-- Campo: Teléfono -->
+            <div class="form-group">
+                <label for="telefono-clow">Número de Teléfono *</label>
+                <input type="tel" id="telefono-clow" name="Teléfono" placeholder="+51 9 XXXX XXXX" required>
+            </div>
+            
+            <!-- Campo: Pregunta sobre motivación -->
+            <div class="form-group">
+                <label for="motivacion-clow">¿Por qué quieres ser un Clown de Siloé? *</label>
+                <textarea id="motivacion-clow" name="Motivación" placeholder="Cuéntanos sobre tu experiencia y por qué crees que puedes traer sonrisas..." rows="6" required></textarea>
+            </div>
+            
+            <!-- Checkbox de aceptación de términos -->
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terminos-clow" name="Aceptación" required style="width: auto;">
+                <label for="terminos-clow" style="width: auto; display: inline;">
+                    Acepto la política de privacidad y el uso de mis datos para la gestión del voluntariado de Siloé.
+                </label>
+            </div>
+            
+            <!-- Botón de envío con estilo especial para clowns -->
+            <button type="submit" class="btn-enviar btn-clow-submit">¡SÍ, QUIERO SER CLOWN DE SILOÉ!</button>
+        </form>
+    </section>
+
+    </div><!-- FIN de #seccion-clow -->
+
+    <!-- CONTENEDOR SECCIÓN ALIADOS" -->
+    <div id="seccion-aliados" class="seccion-inactiva">
+
+    <!--SECCIÓN NUESTROS ALIADOS -->
+    <section class="aliados-hero" style="background: linear-gradient(135deg, rgba(41, 171, 226, 0.75), rgba(255, 107, 180, 0.75)); padding: 60px 20px; text-align: center; color: white;">
+        <h1>🤝 Nuestros Aliados</h1>
+        <p>Instituciones comprometidas con transformar vidas a través de la solidaridad y el voluntariado.</p>
+        <p style="font-style: italic; margin-top: 20px;">Juntos, hacemos la diferencia</p>
+    </section>
+
+    <!-- INFORMACIÓN - UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS-->
+    <section class="aliados-info">
+        <h2>Universidad Peruana de Ciencias Aplicadas - UPC</h2>
+        <div class="aliado-contenido">
+            <div class="aliado-texto">
+                <h3>Nuestra Alianza Estratégica</h3>
+                <p>
+                    La Universidad Peruana de Ciencias Aplicadas es un partner clave en nuestra misión de transformar vidas. 
+                    Colaboramos en proyectos de responsabilidad social universitaria, brindando oportunidades a estudiantes 
+                    de diferentes carreras para participar en nuestras iniciativas de voluntariado en el Hospital del Niño 
+                    y comunidades vulnerables.
+                </p>
+                <p>
+                    Los estudiantes de UPC aportan energía, creatividad e ilusión, generando un impacto significativo en la vida 
+                    de los niños hospitalizados. Esta alianza fortalece el compromiso de ambas instituciones con la responsabilidad 
+                    social y la transformación de la sociedad peruana.
+                </p>
+                <ul style="margin-top: 20px; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    <li style="margin-bottom: 12px;"><strong>Voluntariado Académico:</strong> Estudiantes de diversas carreras participan en nuestros programas</li>
+                    <li style="margin-bottom: 12px;"><strong>Investigación Social:</strong> Proyectos de investigación sobre impacto de voluntariado</li>
+                    <li style="margin-bottom: 12px;"><strong>Capacitación:</strong> Talleres y entrenamientos para voluntarios de UPC</li>
+                    <li><strong>Apoyo Institucional:</strong> Recursos y espacio para desarrollar nuestros proyectos</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA - Momentos con UPC -->
+    <section class="galeria-impacto galeria-aliados">
+        <h2>Momentos de Impacto</h2>
+        <p class="galeria-subtitulo">Estudiantes de UPC transformando vidas junto a Siloé.</p>
+        
+        <div class="galeria-grid">
+            <!-- Placeholder - Usuario agregará imágenes después -->
+            <div style="grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: #999;">
+                <p style="font-size: 1.2rem; margin-bottom: 10px;">📸 Galería de Imágenes</p>
+                <p>Las imágenes de nuestros momentos con UPC irán aquí. Próximamente.</p>
+            </div>
+        </div>
+    </section>
+
+    </div><!-- FIN de #seccion-aliados -->
+
+    <!--CONTENEDOR SECCIÓN NOSOTROS -->
+    <div id="seccion-nosotros" class="seccion-activa">
+
+    <!-- SECCIÓN NOSOTROS - Quiénes Somos -->
+    <section class="nosotros-hero" style="background: linear-gradient(135deg, rgba(41, 171, 226, 0.8), rgba(255, 107, 180, 0.8)); padding: 80px 20px; text-align: center; color: white;">
+        <h1 style="font-size: 3.5rem; margin-bottom: 20px; text-shadow: 2px 2px 6px rgba(0,0,0,0.3);">Sobre Siloé</h1>
+        <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);">"Transformamos el dolor en esperanza a través de la solidaridad y el acompañamiento"</p>
+    </section>
+
+    <!-- Información principal sobre Siloé -->
+    <section class="nosotros-info">
+        <div class="nosotros-contenedor">
+            <!-- Misión y Visión -->
+            <div class="nosotros-mision-vision">
+                <div class="mision-card">
+                    <div class="mision-icon">🎯</div>
+                    <h2>Nuestra Misión</h2>
+                    <p>
+                        Acompañar y apoyar a niños hospitalizados y sus familias en el Hospital del Niño y comunidades vulnerables de Perú, 
+                        a través del voluntariado y la alegría, transformando momentos de dolor en instantes de esperanza y conexión humana.
+                    </p>
+                </div>
+
+                <div class="vision-card">
+                    <div class="vision-icon">🌟</div>
+                    <h2>Nuestra Visión</h2>
+                    <p>
+                        Ser un movimiento de transformación social donde el voluntariado no sea solo una acción, sino una forma de vida. 
+                        Un Perú donde cada niño se sienta acompañado, valorado y capaz de soñar grande, incluso en los momentos más difíciles.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Valores principales -->
+            <div class="nosotros-valores">
+                <h2 style="text-align: center; font-size: 2.5rem; color: var(--azul-siloe); margin-bottom: 50px;">Nuestros Valores</h2>
+                
+                <div class="valores-grid">
+                    <div class="valor-item">
+                        <div class="valor-numero">1</div>
+                        <h3>Compasión</h3>
+                        <p>Sentir el dolor ajeno como propio y responder con acciones oportunas y generosas.</p>
+                    </div>
+
+                    <div class="valor-item">
+                        <div class="valor-numero">2</div>
+                        <h3>Solidaridad</h3>
+                        <p>Trabajar juntos sin importar diferencias, unidos por un propósito común: transformar vidas.</p>
+                    </div>
+
+                    <div class="valor-item">
+                        <div class="valor-numero">3</div>
+                        <h3>Esperanza</h3>
+                        <p>Creer siempre que es posible mejorar las cosas, aún en las circunstancias más difíciles.</p>
+                    </div>
+
+                    <div class="valor-item">
+                        <div class="valor-numero">4</div>
+                        <h3>Autenticidad</h3>
+                        <p>Actuar desde el corazón, sin pretensiones, buscando conexiones genuinas y significativas.</p>
+                    </div>
+
+                    <div class="valor-item">
+                        <div class="valor-numero">5</div>
+                        <h3>Inclusión</h3>
+                        <p>Abrir espacios para que todos, sin discriminación, puedan aportar y ser parte del cambio.</p>
+                    </div>
+
+                    <div class="valor-item">
+                        <div class="valor-numero">6</div>
+                        <h3>Excelencia</h3>
+                        <p>Buscar siempre hacer las cosas bien, con dedicación, profesionalismo y amor por lo que hacemos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qué hacemos -->
+            <div class="nosotros-que-hacemos">
+                <h2 style="text-align: center; font-size: 2.5rem; color: var(--rosa-vibrante); margin-bottom: 50px;">¿Qué Hacemos?</h2>
+                
+                <div class="actividades-lista">
+                    <div class="actividad-card">
+                        <div class="actividad-header">
+                            <span class="actividad-icon">👥</span>
+                            <h3>Voluntariado Hospitalario</h3>
+                        </div>
+                        <p>Nuestros voluntarios acompañan diariamente a niños hospitalizados, brindando apoyo emocional, 
+                        realizando actividades recreativas y siendo una presencia amorosa en momentos de vulnerabilidad.</p>
+                    </div>
+
+                    <div class="actividad-card">
+                        <div class="actividad-header">
+                            <span class="actividad-icon">🤡</span>
+                            <h3>Clown Hospitalario</h3>
+                        </div>
+                        <p>Con nariz roja y corazón grande, nuestros clowns transforman las salas del hospital en espacios de risa 
+                        y alegría, demostrando que incluso en la adversidad, la vida merece ser vivida con sonrisas.</p>
+                    </div>
+
+                    <div class="actividad-card">
+                        <div class="actividad-header">
+                            <span class="actividad-icon">🎨</span>
+                            <h3>Talleres Creativos</h3>
+                        </div>
+                        <p>Ofrecemos espacios de expresión artística, musical y lúdica donde los niños pueden canalizar sus 
+                        emociones y descubrir nuevas formas de conectar con la vida durante su recuperación.</p>
+                    </div>
+
+                    <div class="actividad-card">
+                        <div class="actividad-header">
+                            <span class="actividad-icon">❤️</span>
+                            <h3>Apoyo a Familias</h3>
+                        </div>
+                        <p>Reconocemos que el dolor no es solo del niño, sino de toda la familia. Brindamos contención emocional 
+                        y apoyo práctico a los padres y hermanos durante este proceso difícil.</p>
+                    </div>
+
+                    <div class="actividad-card">
+                        <div class="actividad-header">
+                            <span class="actividad-icon">🌍</span>
+                            <h3>Compromiso Social</h3>
+                        </div>
+                        <p>Trabajamos en comunidades vulnerables llevando acciones de voluntariado que trascienden el hospital, 
+                        generando impacto en familias que más lo necesitan.</p>
+                    </div>
+
+                    <div class="actividad-card">
+                        <div class="actividad-header">
+                            <span class="actividad-icon">📚</span>
+                            <h3>Capacitación</h3>
+                        </div>
+                        <p>Formamos a nuevos voluntarios con talleres, charlas y entrenamientos para que cada persona pueda 
+                        contribuir de la mejor manera posible a nuestra misión.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Impacto -->
+            <div class="nosotros-impacto">
+                <h2 style="text-align: center; font-size: 2.5rem; color: var(--azul-siloe); margin-bottom: 50px;">Nuestro Impacto</h2>
+                
+                <div class="impacto-stats">
+                    <div class="stat-box">
+                        <h3 style="font-size: 2.5rem; color: var(--amarillo-vibrante);">+500</h3>
+                        <p>Niños acompañados anualmente</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 style="font-size: 2.5rem; color: var(--rosa-vibrante);">+200</h3>
+                        <p>Voluntarios activos</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 style="font-size: 2.5rem; color: var(--azul-siloe);">+10</h3>
+                        <p>Años de impacto</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 style="font-size: 2.5rem; color: var(--rosa-vibrante);">100%</h3>
+                        <p>Compromiso con la misión</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Llamada a la acción -->
+            <div class="nosotros-cta" style="background: linear-gradient(135deg, var(--azul-siloe), var(--rosa-vibrante)); padding: 60px 20px; text-align: center; color: white; border-radius: 15px; margin-top: 60px;">
+                <h2 style="font-size: 2.2rem; margin-bottom: 20px;">¿Quieres Ser Parte del Cambio?</h2>
+                <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 40px;">Tu voluntariado puede transformar la vida de un niño. 
+                Únete a nuestra comunidad de solidaridad y descubre el poder de hacer una diferencia.</p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <button class="nosotros-btn-volunteer" onclick="document.getElementById('btn-voluntarios').click()">👥 Sé Voluntario</button>
+                    <button class="nosotros-btn-clow" onclick="document.getElementById('btn-clow').click()">🤡 Sé Clown</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div><!-- FIN de #seccion-nosotros -->
+
+    <!--FOOTER - Información de Contacto-->
+    <footer>
+        <p>Siloé Perú - Transformando el dolor en esperanza</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/siloe.peru" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/siloeperu/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <p style="font-size: 0.7rem; margin-top: 20px; opacity: 0.6;">© 2026 Siloé Perú. Todos los derechos reservados.</p>
+    </footer>
+
+    <!--Botón flotante en la esquina inferior derecha(formato correcto para WhatsApp) -->
+    <div class="whatsapp-container">
+        <a href="https://wa.me/51930917199" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" title="Contáctanos por WhatsApp">
+            <img src="./img logo de mensajeria.png" alt="WhatsApp">
+        </a>
+        <p class="whatsapp-label">Contactate con nosotros</p>
+    </div>
+
+    <!-- ============================================         SCRIPT - Sistema de Navegación entre Secciones
+         ============================================
+         Controla la visibilidad de tres secciones principales:
+         1. Sección Voluntariado
+         2. Sección Clow
+         3. Sección Aliados -->
+    <script>
+        // Test: verificar que el script se está ejecutando
+        console.log('✓ Script cargado correctamente');
+
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('✓ DOM Cargado');
+            
+            // Obtener referencias a los elementos del DOM
+            const btnVoluntarios = document.getElementById('btn-voluntarios');
+            const btnClow = document.getElementById('btn-clow');
+            const btnAliados = document.getElementById('btn-aliados');
+            const btnNosotros = document.getElementById('btn-nosotros');
+            const seccionVoluntariado = document.getElementById('seccion-voluntariado');
+            const seccionClow = document.getElementById('seccion-clow');
+            const seccionAliados = document.getElementById('seccion-aliados');
+            const seccionNosotros = document.getElementById('seccion-nosotros');
+
+            console.log('✓ Elementos obtenidos:', {
+                btnVoluntarios: !!btnVoluntarios,
+                btnClow: !!btnClow,
+                btnAliados: !!btnAliados,
+                btnNosotros: !!btnNosotros,
+                seccionVoluntariado: !!seccionVoluntariado,
+                seccionClow: !!seccionClow,
+                seccionAliados: !!seccionAliados,
+                seccionNosotros: !!seccionNosotros
+            });
+
+            // Función para mostrar una sección
+            function mostrarSeccion(nombre) {
+                console.log('Mostrando sección:', nombre);
+                
+                // Ocultar todas
+                seccionVoluntariado.classList.remove('seccion-activa');
+                seccionVoluntariado.classList.add('seccion-inactiva');
+                seccionClow.classList.remove('seccion-activa');
+                seccionClow.classList.add('seccion-inactiva');
+                seccionAliados.classList.remove('seccion-activa');
+                seccionAliados.classList.add('seccion-inactiva');
+                seccionNosotros.classList.remove('seccion-activa');
+                seccionNosotros.classList.add('seccion-inactiva');
+                
+                btnVoluntarios.classList.remove('nav-btn-active');
+                btnClow.classList.remove('nav-btn-active');
+                btnAliados.classList.remove('nav-btn-active');
+                btnNosotros.classList.remove('nav-btn-active');
+                
+                // Mostrar la seleccionada
+                if (nombre === 'voluntarios') {
+                    seccionVoluntariado.classList.remove('seccion-inactiva');
+                    seccionVoluntariado.classList.add('seccion-activa');
+                    btnVoluntarios.classList.add('nav-btn-active');
+                } else if (nombre === 'clow') {
+                    seccionClow.classList.remove('seccion-inactiva');
+                    seccionClow.classList.add('seccion-activa');
+                    btnClow.classList.add('nav-btn-active');
+                } else if (nombre === 'aliados') {
+                    seccionAliados.classList.remove('seccion-inactiva');
+                    seccionAliados.classList.add('seccion-activa');
+                    btnAliados.classList.add('nav-btn-active');
+                } else if (nombre === 'nosotros') {
+                    seccionNosotros.classList.remove('seccion-inactiva');
+                    seccionNosotros.classList.add('seccion-activa');
+                    btnNosotros.classList.add('nav-btn-active');
+                }
+                
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            // Agregar eventos a botones
+            if (btnVoluntarios) {
+                btnVoluntarios.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mostrarSeccion('voluntarios');
+                });
+            }
+
+            if (btnClow) {
+                btnClow.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mostrarSeccion('clow');
+                });
+            }
+
+            if (btnAliados) {
+                btnAliados.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mostrarSeccion('aliados');
+                });
+            }
+
+            if (btnNosotros) {
+                btnNosotros.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mostrarSeccion('nosotros');
+                });
+            }
+
+            console.log('✓ Eventos de botones agregados');
+
+            /* ============================================
+               EFECTO FLIP 3D EN GALERÍA DE IMÁGENES
+               ============================================
+               Permite hacer clic en las imágenes para ver las historias */
+            
+            // Seleccionar todas las tarjetas flip
+            const flipCards = document.querySelectorAll('.galeria-flip-card');
+            let currentFlipped = null; // Variable para guardar la tarjeta actualmente volteada
+
+            // Agregar event listener de clic a cada tarjeta
+            flipCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    // Si hay una tarjeta ya volteada y es diferente a esta
+                    if (currentFlipped && currentFlipped !== this) {
+                        // Voltear la anterior hacia atrás
+                        currentFlipped.classList.remove('flipped');
+                    }
+                    
+                    // Alternar la clase 'flipped' en la tarjeta actual
+                    this.classList.toggle('flipped');
+                    
+                    // Actualizar la referencia a la tarjeta volteada
+                    if (this.classList.contains('flipped')) {
+                        currentFlipped = this;
+                    } else {
+                        currentFlipped = null;
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
